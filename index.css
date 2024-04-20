@@ -1,0 +1,93 @@
+body {
+overflow-x: hidden;
+margin: 0;
+padding: 4vh 4vw;
+background-image: url('/assets/images/Pattern-Backgroundtest.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+p, li, h1, h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1A1A1A;
+}
+
+h1, h2 {
+  font-size: 40px;
+  width: 750px;
+  font-weight: 600;
+  margin-top: 22vh;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 62px;
+  height: 62px;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+.nav {
+  display: flex;
+}
+
+li {
+  padding: 0 2vw;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+.nav-btn:hover {
+  color: #C50831;
+}
+
+.nav-btn:active {
+  color: #1A1A1A;
+  opacity: 0.8;
+}
+
+.cta-btn {
+  padding: 15px 55px;
+  color: white;
+  font-size: 25px;
+  border-radius: 32px;
+  border: none;
+  background-image: linear-gradient(to bottom right, #C40731 30%, #C91B26 100%);
+}
+
+.cta-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.cta-btn:active {
+  opacity: 0.6;
+}
+
+.social-link {
+  margin-top: -16px;
+  padding-right: 18px;
+}
