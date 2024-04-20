@@ -2,7 +2,7 @@ body {
 overflow-x: hidden;
 margin: 0;
 padding: 4vh 4vw;
-background-image: url('/assets/images/Pattern-Backgroundtest.png');
+background-image: url('/assets/images/Pattern-Background.jpg');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -25,6 +25,8 @@ h1, h2 {
 
 h2 {
   font-size: 25px;
+  margin-top: 28vh;
+  margin-bottom: 4px;
 }
 
 .header {
@@ -87,7 +89,16 @@ li {
   opacity: 0.6;
 }
 
-.social-link {
-  margin-top: -16px;
-  padding-right: 18px;
+.social-container {
+  display: inline-block;
+  margin: 0;
+  padding-right: 16px;
+}
+
+.social-link:hover {
+  opacity: 0.8;
+}
+
+.social-link:active {
+  opacity: 0.6;
 }
