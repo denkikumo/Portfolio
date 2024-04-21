@@ -40,3 +40,8 @@ h3 {
 .active {
 color: #C40731;
 }
+
+::selection {
+  background-color: #A80629;
+  color: #fff;
+}

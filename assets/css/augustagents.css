@@ -86,22 +86,187 @@ top: calc(100% + 3.5em);
 }
 
 .hero-img-container {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -20vh;
+display: flex;
+justify-content: flex-end;
+margin-top: -20vh;
 }
 
 .hero-img {
-  max-width: 50%;
+max-width: 50%;
 }
 
 .more-cs, .more-cs p {
-  color: #1A1A1A;
-  display: inline-block;
-  text-align: center;
-  justify-content: center;
+color: #1A1A1A;
+display: inline-block;
+text-align: center;
+justify-content: center;
 }
 
 .more-cs:hover, .more-cs p:hover {
-  color: #C50831;
+color: #C50831;
+}
+
+.h1-cs {
+  margin: 0;
+  font-weight: 700;
+}
+
+.h3-cs {
+  margin: 10px 0 0 0;
+}
+
+.p1 {
+  width: 500px;
+}
+
+.master-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 26vh;
+  margin-bottom: 120px;
+}
+
+.master-container2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 6vh;
+  margin-bottom: 120px;
+}
+
+.article {
+  flex-grow: 1;
+  height: fit-content;
+}
+
+.reader-bar-container {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.reader-bar {
+  background-color: #0071BC;
+  width: 8px;
+  height: 172px;
+  margin-right: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.offset {
+  margin-left: 20px;
+}
+
+.aa-logo {
+  height: 172px;
+  width: auto;
+  margin-right: 0vw;
+  margin-bottom: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 0;
+}
+
+.second {
+  margin-top: 120px;
+}
+
+.p2 {
+  width: 550px
+}
+
+.p3 {
+  width: 550px;
+}
+
+.p4 {
+  width: 600px;
+}
+
+.p5 {
+  width: 700px;
+}
+
+.p6 {
+  width: 750px;
+}
+
+.illustration {
+  max-width: 400px;
+  margin-right: 0vw;
+  margin-bottom: 0;
+}
+
+.logo-container {
+  margin: 0;
+}
+
+.h1-center {
+  display: flex;
+  justify-content: center;
+}
+
+.h1-divider {
+  margin: 0 0 62px 0;
+  justify-content: center;
+  font-size: 47px;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.aa-before {
+  max-width: 1396px;
+}
+
+.third {
+  height: 206px;
+}
+
+.fourth {
+  height: 138px;
+}
+.aa-lc {
+  height: 380px;
+}
+
+.aa-analysis {
+  height: 600px;
+}
+
+.issue-s {
+  font-size: 29px;
+}
+
+.spaced-list {
+  margin: 0;
+  padding: 0;
+}
+
+.spaced-list li {
+  margin: 0 0 12px 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.aa-after {
+  height: 900px;
+}
+
+h2 {
+  margin-top: 10vh;
+}
+
+.end {
+  display: inline-block;
+}
+
+.home-r {
+  text-decoration: dotted;
 }
