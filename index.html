@@ -10,9 +10,27 @@
   <link rel="icon" href="/assets/images/JJ-UX-Logo-White.svg" type="image/svg+xml">
 
   <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/defaults.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
 </head>
 <body>
-  {% include header.html %}
+  <header>
+    <nav class="header">
+      <div class="logo-container">
+        <a href="/">
+          <img class="logo" alt="Logo" src="/assets/images/JJ-logo.png">
+        </a>
+      </div>
+      <div>
+        <ul class="nav">
+          <a class="nav-btn" href="/about"><li class="nav-btn">About</li></a>
+          <a class="nav-btn" href="/contact"><li class="nav-btn">Contact</li></a>
+          <a class="nav-btn" href="/work"><li class="nav-btn">Work</li></a>
+        </ul>
+      </div>
+    </nav>
+  </header>
 <main>
 <h1>
   I'm Joshua Joseph, a UX/UI Designer 
@@ -28,11 +46,11 @@ focused on crafting natural, impactful user experiences.
   <h2>
     <strong>Need a design solution?</strong> I'm here to help.
   </h2>
-  <a class="social-container" href="https://www.linkedin.com/in/joshua-joseph-a46456275/">
-    <img class="social-link" alt="LinkedIn" src="/assets/images/Linkedin-icon.svg">
+  <a class="social-container" href="https://www.linkedin.com/in/joshua-joseph-a46456275/" target="_blank">
+    <img class="social-link" alt="LinkedIn" src="/assets/images/Linkedin-icon-color.svg">
   </a>
   <a class="social-container" href="mailto:joshj.uxui@gmail.com">
-    <img class="social-link" alt="Email" src="/assets/images/Email-icon.svg">
+    <img class="social-link" alt="Email" src="/assets/images/Email-icon-color.svg">
   </a>
   <p>© 2024 Joshua Joseph UX/UI</p>
 </footer>

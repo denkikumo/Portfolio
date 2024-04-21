@@ -1,0 +1,13 @@
+.social-container {
+  display: inline-block;
+  margin: 0;
+  padding-right: 16px;
+}
+
+.social-link:hover {
+  opacity: 0.8;
+}
+
+.social-link:active {
+  opacity: 0.6;
+}

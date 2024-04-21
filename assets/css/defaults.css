@@ -1,0 +1,42 @@
+body {
+overflow-x: hidden;
+margin: 0;
+padding: 4vh 4vw;
+background-image: url('/assets/images/Pattern-Background.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+p, li, h1, h2, h3 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #1A1A1A;
+}
+
+h1, h2 {
+font-size: 40px;
+width: 750px;
+font-weight: 600;
+margin-top: 22vh;
+line-height: 60px;
+letter-spacing: -0.01em;
+}
+
+h2 {
+font-size: 25px;
+margin-top: 30vh;
+margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  width: 660px;
+}
+
+.active {
+color: #C40731;
+}

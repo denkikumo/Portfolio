@@ -1,0 +1,107 @@
+.header {
+display: flex;
+justify-content: space-between;
+}
+
+.logo {
+width: 62px;
+height: 62px;
+opacity: 0.8;
+}
+
+.logo:hover {
+opacity: 1;
+}
+
+.logo:active {
+opacity: 0.6;
+}
+
+.nav {
+display: flex;
+}
+
+li {
+padding: 0 2vw;
+list-style-type: none;
+font-size: 25px;
+}
+
+.nav-btn {
+text-decoration: none;
+color: #1A1A1A;
+opacity: 0.8;
+}
+
+.nav-btn:hover {
+color: #C50831;
+opacity: 1;
+}
+
+.nav-btn:active {
+color: #1A1A1A;
+opacity: 0.8;
+}
+
+.hero-title {
+display: inline-block;
+position: relative;
+text-align: left;
+margin-top: 30vh;
+}
+
+.title {
+display: inline-block;
+font-size: 76px;
+font-weight: 700;
+letter-spacing: -0.02em;
+margin: 0;
+width: auto;
+text-align: left;
+}
+
+.sub-title {
+margin: 10px 0 0 0;
+font-size: 29px;
+font-weight: 600;
+position: absolute;
+width: 100%;
+text-align: center;
+top: 100%;
+left: 0;
+}
+
+.description {
+margin: 10px 0 0 0;
+font-size: 18px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0.03em;
+position: absolute;
+width: 100%;
+text-align: center;
+top: 100%;
+left: 0;
+top: calc(100% + 3.5em);
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -20vh;
+}
+
+.hero-img {
+  max-width: 50%;
+}
+
+.more-cs, .more-cs p {
+  color: #1A1A1A;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+}
+
+.more-cs:hover, .more-cs p:hover {
+  color: #C50831;
+}

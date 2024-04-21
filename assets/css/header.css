@@ -1,0 +1,41 @@
+.header {
+display: flex;
+justify-content: space-between;
+}
+
+.logo {
+width: 62px;
+height: 62px;
+}
+
+.logo:hover {
+opacity: 0.8;
+}
+
+.logo:active {
+opacity: 0.6;
+}
+
+.nav {
+display: flex;
+}
+
+li {
+padding: 0 2vw;
+list-style-type: none;
+font-size: 25px;
+}
+
+.nav-btn {
+text-decoration: none;
+color: #1A1A1A;
+}
+
+.nav-btn:hover {
+color: #C50831;
+}
+
+.nav-btn:active {
+color: #1A1A1A;
+opacity: 0.8;
+}
