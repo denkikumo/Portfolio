@@ -8,16 +8,26 @@
   <meta name="description" content="Portfolio">
   <link rel="image_src" href="/assets/images/JJ-logo.png" />
   <link rel="icon" href="/assets/images/JJ-UX-Logo-White.svg" type="image/svg+xml">
-
-  <link rel="stylesheet" href="/assets/css/work.css">
+  
   <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/sidebar.css">
   <link rel="stylesheet" href="/assets/css/defaults.css">
   <link rel="stylesheet" href="/assets/css/footer.css">
   <link rel="stylesheet" href="/assets/css/about.css">
 </head>
 <body>
+  <div id="sidebar" class="sidebar">
+    <a href="/">
+      <div class="logo-placeholder"><img src="/assets/images/JJ-logo.png"></div>
+    </a>
+    <a href="/about"><button class="sidebar-btn">About</button></a>
+    <a href="/contact"><button class="sidebar-btn">Contact</button></a>
+    <a href="/work"><button class="sidebar-btn">Work</button></a>
+</div>
+  <div class="overlay" onclick="closeSidebar()"></div>
   <header>
     <nav class="header">
+      <div class="menu-container hidden"><img src="/assets/images/menu.svg"></div>
       <div class="logo-container">
         <a href="/">
           <img class="logo" alt="Logo" src="/assets/images/JJ-logo.png">
@@ -36,7 +46,7 @@
   <div class="master-container">
     <div class="article">
       <div class="reader-bar-container">
-        <div class="reader-bar"></div>
+        <div class="reader-bar">&nbsp;</div>
         <div class="text-content">
           <h1>
             Discovery
@@ -54,7 +64,7 @@
             A Little About Me
           </h1>
           <h3 class="h3-width">
-            With an unwavering commitment to learning and improving daily, I approach my hobbies and interests with the same seriousness as my professional endeavors. When not honing my UX skills, I'm immersed in studying Japanese, practicing guitar, or expanding my knowledge on various topics. As I deepen my understanding of different concepts and disciplines, my decisions grow increasingly nuanced and strategic, fostering more effective growth.
+            With an unwavering commitment to learning and improving daily, I approach my hobbies and interests with the same seriousness as my professional endeavors. When not honing my UX skills, I'm immersed in studying Japanese, practicing guitar, or expanding my knowledge on various topics. I'm also a dogsitter who loves photography, and I often practice composition by taking photos, which enhances my design skills as well. As I deepen my understanding of different concepts and disciplines, my decisions grow increasingly nuanced and strategic, fostering more effective growth.
           </h3>
         </div>
       </div>
@@ -82,11 +92,13 @@
   <a class="social-container" href="https://www.linkedin.com/in/joshua-joseph-a46456275/" target="_blank">
     <img class="social-link" alt="LinkedIn" src="/assets/images/Linkedin-icon-color.svg" >
   </a>
-  <a class="social-container" href="mailto:joshj.uxui@gmail.com">
+  <a class="social-container" onclick="sendEmail()">
     <img class="social-link" alt="Email" src="/assets/images/Email-icon-color.svg">
   </a>
   <p>© 2024 Joshua Joseph UX/UI</p>
 </footer>
 <script src="/assets/js/about.js"></script>
+<script src="assets/js/sidebar.js"></script>
+<script src="assets/js/obfuscation.js"></script>
 </body>
 </html>

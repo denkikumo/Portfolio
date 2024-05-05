@@ -9,15 +9,25 @@
   <link rel="image_src" href="/assets/images/JJ-logo.png" />
   <link rel="icon" href="/assets/images/JJ-UX-Logo-White.svg" type="image/svg+xml">
 
-  <link rel="stylesheet" href="/assets/css/work.css">
   <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/sidebar.css">
   <link rel="stylesheet" href="/assets/css/defaults.css">
   <link rel="stylesheet" href="/assets/css/footer.css">
   <link rel="stylesheet" href="/assets/css/contact.css">
 </head>
 <body>
+  <div id="sidebar" class="sidebar">
+    <a href="/">
+      <div class="logo-placeholder"><img src="/assets/images/JJ-logo.png"></div>
+    </a>
+    <a href="/about"><button class="sidebar-btn">About</button></a>
+    <a href="/contact"><button class="sidebar-btn">Contact</button></a>
+    <a href="/work"><button class="sidebar-btn">Work</button></a>
+</div>
+  <div class="overlay" onclick="closeSidebar()"></div>
   <header>
     <nav class="header">
+      <div class="menu-container hidden"><img src="/assets/images/menu.svg"></div>
       <div class="logo-container">
         <a href="/">
           <img class="logo" alt="Logo" src="/assets/images/JJ-logo.png">
@@ -39,24 +49,14 @@
   <a class="social-container" href="https://www.linkedin.com/in/joshua-joseph-a46456275/" target="_blank">
     <img class="social-link" alt="LinkedIn" src="/assets/images/Linkedin-icon-color.svg">
   </a>
-  <a class="social-container" href="mailto:joshj.uxui@gmail.com">
+  <a class="social-container" onclick="sendEmail()">
     <img class="social-link" alt="Email" src="/assets/images/Email-icon-color.svg">
   </a>
-  <!--
-  <script type="text/javascript">
-    var user = 'joshj.uxui';
-    var domain = 'gmail.com';
-    var element = document.createElement('a');
-    element.href = 'mailto:' + user + '@' + domain;
-    element.innerText = user + '@' + domain;
-    element.className = 'email-link';
-    document.body.appendChild(element);
-</script>
-<noscript>Please enable JavaScript to see the email address.</noscript>
--->
 </main>
 <footer>
   <p>© 2024 Joshua Joseph UX/UI</p>
 </footer>
+<script src="assets/js/obfuscation.js"></script>
+<script src="assets/js/sidebar.js"></script>
 </body>
 </html>

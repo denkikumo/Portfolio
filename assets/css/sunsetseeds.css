@@ -43,11 +43,39 @@
   opacity: 0.8;
   }
   
+  .back-container {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    padding: 16px 0;
+  }
+  
+  .back-btn-icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .back-btn {
+    text-decoration: underline;
+    display: inline-block;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .back-container:hover {
+    opacity: 0.8;
+  }
+  
+  .back-container:active {
+    opacity: 0.6;
+  }
+  
   .hero-title {
   display: inline-block;
   position: relative;
   text-align: left;
-  margin-top: 30vh;
+  margin-top: 20vh;
   padding-right: 2vw;
   }
   

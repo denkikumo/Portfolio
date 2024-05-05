@@ -17,7 +17,8 @@
 <body>
   <header>
     <nav class="header">
-      <div class="logo-container">
+      <div class="menu-container hidden"><img src="/assets/images/menu.svg"></div>
+      <div class="logo-container-j">
         <a href="/">
           <img class="logo" alt="Logo" src="/assets/images/JJ-logo.png">
         </a>
@@ -32,17 +33,24 @@
     </nav>
   </header>
   <main>
+    <a href="/work">
+      <div class="back-container">
+        <img class="back-btn-icon" src="/assets/images/Back-btn.svg">
+        <p class="back-btn">Back</p>
+      </div>
+    </a>
     <div class="hero-title">
       <h1 class="title">
         August Agents
       </h1>
       <h2 class="sub-title">- Responsive Web Redesign -</h2>
       <h3 class="description">
-        Reflecting efficient service through a simple interface
+        Reflecting efficient service through<br class="hidden"> a simple interface
       </h3>
     </div>
     <div class="hero-img-container">
       <img class="hero-img" src="/assets/images/AA-CaseStudy-Full.png">
+      <img class="hero-img-mobile hidden" src="/assets/images/AA-CaseStudy-Full-Mobile.png">
     </div>
     <div class="master-container">
       <div class="article">
@@ -75,7 +83,7 @@
       </div>
     </div>
 
-    <div class="master-container2">
+    <div class="master-container2 master-c-m4">
       <div class="article">
         <div class="reader-bar-container">
           <div class="reader-bar"></div>
@@ -89,7 +97,7 @@
           </div>
         </div>
       </div>
-      <div class="logo-container">
+      <div class="logo-container-m2">
         <img class="illustration" src="/assets/images/AA-Cs-Illustration.png">
       </div>
     </div>
@@ -99,8 +107,9 @@
       </h1>
     </div>
     <img class="aa-before" src="/assets/images/AA-Cs-Before.png">
+    <img class="aa-before-m hidden" src="/assets/images/aa-before-m.png">
 
-    <div class="master-container">
+    <div class="master-container master-c-m3">
       <div class="article">
         <div class="reader-bar-container">
           <div class="reader-bar third"></div>
@@ -112,6 +121,10 @@
               Shooting for a consistent aesthetic with enhanced branding, the owner wanted me to match the style of their signature line card PDFs, with some unique requests that deviate from accessibility guidelines and UX Principles.
             </h3>
           </div>
+        </div>
+
+        <div class="logo-container logo-c-lc hidden">
+          <img class="aa-lc" src="/assets/images/AA-Cs-Lc.png">
         </div>
   
         <div class="reader-bar-container offset">
@@ -131,7 +144,7 @@
       </div>
     </div>
 
-    <div class="master-container">
+    <div class="master-container master-c-m3">
       <div class="article">
         <div class="reader-bar-container">
           <div class="reader-bar fourth"></div>
@@ -141,6 +154,9 @@
             </h1>
             <h3 class="h3-cs p4">
               Before making any changes, I wanted to take a deeper look at where the site could be improve. <br><br>
+              <div class="logo-container hidden logo-c-a-m">
+                <img class="aa-analysis" src="/assets/images/AA-Cs-Analysis-M.png">
+              </div>
               <p class="issue-p">
               <strong class="issue-s">Issues</strong><br>
               <ol class="spaced-list">
@@ -155,7 +171,7 @@
           </div>
         </div>
   
-        <div class="reader-bar-container offset">
+        <div class="reader-bar-container offset m-n">
           <div class="reader-bar hidden"></div>
           <div class="text-content second">
             <h1 class="h1-cs">
@@ -166,12 +182,12 @@
           </div>
         </div>
       </div>
-      <div class="logo-container">
+      <div class="logo-container logo-c-a">
         <img class="aa-analysis" src="/assets/images/AA-Cs-Analysis.png">
       </div>
     </div>
 
-    <div class="master-container2">
+    <div class="master-container2 m-n2">
       <div class="article">
         <div class="reader-bar-container">
           <div class="reader-bar fourth"></div>
@@ -180,7 +196,10 @@
               Final Design
             </h1>
             <h3 class="h3-cs p5">
-              Going off of the listed issues and unique design requests <br>from the client, this is the final product. <br><br>
+              Going off of the listed issues and unique design requests from the client, this is the final product. <br><br>
+              <div class="logo-container logo-c-a-m .aa-after hidden">
+                <img class="aa-after" src="/assets/images/AA-Cs-After-M.png">
+              </div>
               <p class="issue-p">
               <strong class="issue-s">Changes</strong><br>
               <ol class="spaced-list">
@@ -197,7 +216,7 @@
           </div>
         </div>
   
-        <div class="reader-bar-container offset">
+        <div class="reader-bar-container offset m-n">
           <div class="reader-bar hidden"></div>
           <div class="text-content second">
             <h1 class="h1-cs">
@@ -208,12 +227,12 @@
           </div>
         </div>
       </div>
-      <div class="logo-container">
+      <div class="logo-container logo-c-a">
         <img class="aa-after" src="/assets/images/AA-Cs-After.png">
       </div>
     </div>
 
-    <div class="master-container2">
+    <div class="master-container2 m-n2">
       <div class="article">
         <div class="reader-bar-container">
           <div class="reader-bar"></div>
@@ -241,7 +260,7 @@
         <div class="reader-bar-container offset">
           <div class="reader-bar hidden"></div>
           <div class="text-content second">
-            <h1 class="h1-cs">
+            <h1 class="h1-cs m-adjust">
               What would I do differently?
             </h1>
             <h3 class="h3-cs p6">
@@ -272,14 +291,15 @@
   <a class="social-container" href="https://www.linkedin.com/in/joshua-joseph-a46456275/" target="_blank">
     <img class="social-link" alt="LinkedIn" src="/assets/images/Linkedin-icon-color.svg">
   </a>
-  <a class="social-container" href="mailto:joshj.uxui@gmail.com">
+  <a class="social-container" onclick="sendEmail()">
     <img class="social-link" alt="Email" src="/assets/images/Email-icon-color.svg">
   </a>
   <div><a class="more-cs" href="/work">
     <p class="end">View more case studies</p>
-  </a> <p class="end">or <a class="more-cs home-r" href="/">return to homepage</a></p></div>
+  </a> <p class="end"><p class="or">or</p> <a class="more-cs home-r" href="/">return to homepage</a></p></div>
   
   <p>© 2024 Joshua Joseph UX/UI</p>
 </footer>
+<script src="/assets/js/obfuscation.js"></script>
 </body>
 </html>
