@@ -115,6 +115,7 @@ h3 {
   .reader-bar {
     width: 12px;
     height: 454px;
+    display: none;
   }
 
   .nav-btn {

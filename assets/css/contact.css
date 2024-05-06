@@ -1,6 +1,10 @@
 h1 {
 width: 600px;
 }
+
+.hidden {
+  display: none;
+}
 /*
 .email-link {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
