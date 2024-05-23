@@ -151,7 +151,7 @@ h3 {
   }
 
   .mySlide img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
   }
