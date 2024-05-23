@@ -157,9 +157,10 @@ h3 {
     box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
   }
 
-  .slide3 {
+  .mySlide3 {
     width: auto;
-    max-width: 100%;
-    max-height: 70vh;
+    max-width: 10%;
+    max-height: 10%;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
   }
 }
