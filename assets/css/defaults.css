@@ -38,6 +38,10 @@ body {
     width: 660px;
   }
   
+  strong {
+    font-weight: 700;
+  }
+
   .active {
   color: #C40731;
   }

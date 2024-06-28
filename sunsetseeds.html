@@ -10,13 +10,24 @@
   <link rel="icon" href="/assets/images/JJ-UX-Logo-White.svg" type="image/svg+xml">
 
   <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/sidebar.css">
   <link rel="stylesheet" href="/assets/css/defaults.css">
   <link rel="stylesheet" href="/assets/css/footer.css">
   <link rel="stylesheet" href="/assets/css/sunsetseeds.css">
 </head>
 <body>
+  <div id="sidebar" class="sidebar">
+    <a href="/">
+      <div class="logo-placeholder"><img src="/assets/images/JJ-logo.png"></div>
+    </a>
+    <a href="/about"><button class="sidebar-btn">About</button></a>
+    <a href="/contact"><button class="sidebar-btn">Contact</button></a>
+    <a href="/work"><button class="sidebar-btn">Work</button></a>
+</div>
+  <div class="overlay" onclick="closeSidebar()"></div>
   <header>
     <nav class="header">
+      <div class="menu-container hidden"><img src="/assets/images/menu.svg"></div>
       <div class="logo-container">
         <a href="/">
           <img class="logo" alt="Logo" src="/assets/images/JJ-logo.png">
@@ -48,7 +59,7 @@
       </h3>
     </div>
     <div class="hero-img-container">
-      <img class="hero-img" src="/assets/images/SS-CaseStudy-Full.png">
+      <img class="hero-img" src="/assets/images/ss-construction.svg">
     </div>
   </main>
   
@@ -68,6 +79,7 @@
   
   <p>© 2024 Joshua Joseph UX/UI</p>
 </footer>
+<script src="assets/js/sidebar.js"></script>
 <script src="/assets/js/obfuscation.js"></script>
 </body>
 </html>

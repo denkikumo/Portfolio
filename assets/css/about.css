@@ -159,8 +159,8 @@ h3 {
 
   .mySlide3 {
     width: auto;
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 70%;
+    max-height: 660px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
   }
 }

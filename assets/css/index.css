@@ -62,3 +62,13 @@ border: none;
 background: linear-gradient(45deg, #C40731, #C91B26);
 }
 }
+
+@media (max-width: 1026px) {
+.nav-btn {
+display: none;
+}
+
+.menu-container {
+display: block;
+}
+}

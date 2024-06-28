@@ -14,7 +14,7 @@ text-decoration: none;
 display: inline-block;
 }*/
 
-@media (max-width: 599px) {
+@media (max-width: 1026px) {
 body {
 box-sizing: border-box;
 }

@@ -138,3 +138,13 @@ height: 210px;
       color: #1A1A1A;
     }
   }
+
+  @media (min-width: 599px) and (max-width: 1026px) {
+    .nav-btn {
+      display: none;
+      }
+      .menu-container {
+        display: block;
+        }
+  }
+  
