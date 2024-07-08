@@ -82,6 +82,10 @@ height: 210px;
   display: none;
 }
 
+.poop {
+  display: none;
+}
+
 
 @media (max-width: 599px) {
   h1, h2 {
