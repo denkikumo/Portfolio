@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fugu Sushi Case Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/sidebar.css">
+    <link rel="stylesheet" href="/assets/css/fugusushi.css">
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        <a href="/">
+          <div class="logo-placeholder"><img src="/assets/images/JJ-logo.png"></div>
+        </a>
+        <a href="/about"><button class="sidebar-btn">About</button></a>
+        <a href="/contact"><button class="sidebar-btn">Contact</button></a>
+        <a href="/work"><button class="sidebar-btn">Work</button></a>
+    </div>
+      <div class="overlay" onclick="closeSidebar()"></div>
+      <header>
+        <nav class="header">
+          <div class="menu-container hidden"><img src="/assets/images/menu-white.svg"></div>
+          <div class="logo-container">
+            <a href="/">
+              <img class="logo" alt="Logo" src="/assets/images/JJ-UX-Logo-White.svg">
+            </a>
+          </div>
+          <div>
+            <ul class="nav">
+              <a class="nav-btn" href="/about"><li class="nav-btn">About</li></a>
+              <a class="nav-btn" href="/contact"><li class="nav-btn">Contact</li></a>
+              <a class="nav-btn" href="/work"><li class="nav-btn active">Work</li></a>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <a class="back-boundaries" href="/work">
+            <div class="back-container">
+              <img class="back-btn-icon" src="/assets/images/Back-btn-white.svg">
+              <p class="back-btn">Back</p>
+            </div>
+          </a>
+          <div class="fugu-article">
+              <h1>
+                The Pain Points
+              </h1>
+              <h2 class="fugu-bp" style="margin-top: 0px;">
+                <p style="margin: 0px; color: #7F7F7F">The areas in which Fugu Sushi’s website could improve</p>
+                • No utilization of logo; lacking brand consistency<br>
+                • Menu takes a long time to navigate<br>
+                • Menu has placeholder text; appears lazy<br>
+                • Unclear coupon page
+              </h2>
+          </div>
+          <div class="page-number-master">
+            <div class="page-number-container">
+              <a class="a-dec" href="/fugusushi-page-2">
+                  <div class="back-page-container">
+                      <img src="assets/images/back-page-arrow.svg">
+                      <p>Back</p>
+                  </div>
+              </a>
+              <p class="p-numbers">3 of 10</p>
+              <a class="a-dec" href="/fugusushi-page-4">
+                <div class="next-page-container">
+                    <p>Next</p>
+                    <img src="/assets/images/next-page-arrow.svg">
+                </div>
+              </a>
+            </div>
+          </div>
+      </main>
+        <script src="assets/js/obfuscation.js"></script>
+        <script src="assets/js/sidebar.js"></script>
+</body>
+</html>
